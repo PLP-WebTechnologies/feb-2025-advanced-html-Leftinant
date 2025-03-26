@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements Example</title>
+</head>
+<body>
+
+    <h2>List</h2>
+    <ol type="I">
+        <li>Head</li>
+        <li>Shoulder</li>
+        <li>Private Parts</li>
+        <li>Knees</li>
+        <li>Toes</li>
+    </ol>
+
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/5701249/pexels-photo-5701249.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Landscape Image" width="500">
+
+    <h2>Contact List</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John mweti</td>
+            <td>123 dango</td>
+            <td>555-1234</td>
+            <td>johnmweti@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Jane njeri</td>
+            <td>456 umoya</td>
+            <td>555-5678</td>
+            <td>janenjeri@gmail.com</td>
+        </tr>
+        <tr>
+            <td>David ongamo</td>
+            <td>789 Pusia</td>
+            <td>555-9012</td>
+            <td>davidongamo@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Emily nkerote</td>
+            <td>101 Meroo</td>
+            <td>555-3456</td>
+            <td>emilynkerote@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Michael onyancha</td>
+            <td>202 Kerina</td>
+            <td>555-7890</td>
+            <td>michaelonyancha@gmail.com</td>
+        </tr>
+    </table>
+
+    <h2>Registration Form</h2>
+    <form action="/submit-registration" method="post">
+        <fieldset>
+        <legend>User Information</legend>
+
+        <label>Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <label >Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label >Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+        <label >Date of Birth:</label><br>
+        <input type="date" id="date" name="date" required><br><br>
+
+        <label>Country:</label><br>
+        <select id="country" name="country">
+            <option value="">Select a country</option>
+            <option value="us">kenya</option>
+            <option value="ca">uganda</option>
+            <option value="uk">nigeria</option>
+            <option value="au">south africa</option>
+        </select><br><br>
+
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        
+        <p>Interests:</p>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label><br>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label><br>
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">Reading</label><br><br>
+
+        <input type="submit" value="Register">
+        </fieldset>
+    </form>
+
+    </body>
+    </html>
